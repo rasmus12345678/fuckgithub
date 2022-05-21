@@ -1,0 +1,113 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+.background{
+  background-image: url("../img/bild2.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+body{
+  
+  font-family: 'Anek Kannada', sans-serif;
+   background-color: darkgray;
+}
+
+#logo{
+margin-top: 20px; 
+margin-left: 20px;
+display: block;
+float: left;
+width: 200px;
+
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+ ;
+}
+
+
+nav > ul{
+  flex:1 ;
+  padding-top: 20px;
+  text-align: center;
+  margin-right: 200px;
+}
+
+nav ul li{
+  display: inline-block;
+  text-align: center;
+  padding-right:20px;
+  margin: 10px 20px;
+}
+
+nav ul a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #1a1a1a;
+  font-size: 30px;
+}
+nav ul a:hover{
+  color:blueviolet
+}
+
+#högersida ul li{
+  display: block;
+  float: right;
+  padding-top: 20px;
+}
+
+
+.info{
+  width: 100%;
+  padding: 0 7%;
+  display: flex;
+  align-items: center;
+  
+  position: fixed;
+  bottom: 50px;
+  left: 0;
+}
+
+.info div{
+  margin: 0 20px;
+}
+.info div h2{
+  font-size: 45px;
+  font-weight: bold;
+  color:#1a1a1a;
+}
+
+.info p{
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+
+.info .line{
+  flex: 1;
+  background: #1a1a1a;
+  height: 5px;
+
+}
+
+@media only screen and (max-width: 700px) {
+ 
+  body{
+    font-size: 38px;
+  }
+}
