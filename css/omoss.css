@@ -32,7 +32,7 @@ div{
 .wow{
     text-align: center;
     justify-content: center;
-    width: 500px;
+    max-width: 500px;
     min-height: 200px;
     margin-left: 0;
     margin-right: 0;
